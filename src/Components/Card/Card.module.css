@@ -1,0 +1,14 @@
+.cardContainer {
+  width: 376px;
+  height: 496px;
+  background: #ffffff;
+  box-shadow: 0px 6px 40px rgba(57, 132, 187, 0.05);
+  border-radius: 38px;
+}
+.cardImage {
+  width: 100%;
+}
+.cardDetails {
+  display: flex;
+  flex-direction: column;
+}
