@@ -1,0 +1,31 @@
+.banner {
+  background: linear-gradient(to left, #ba5370, #f4e2d8);
+  height: 500px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: minmax(300px, 500px) 1fr;
+  padding: 0px 50px;
+}
+.title {
+  /* position: absolute;
+  width: 432px;
+  height: 191px;
+  left: 102px;
+  top: 319px; */
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 4rem;
+  line-height: 130px;
+  color: var(--primary);
+  margin: 0;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+p {
+  color: var(--whitebase);
+}
