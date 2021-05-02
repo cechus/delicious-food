@@ -1,6 +1,7 @@
 :root {
   --whitebase: #fff;
   --primary: rgba(97, 41, 153, 1);
+  --bg: rgba(245, 241, 255, 1);
   --secondary: rgba(174, 141, 208, 1);
   --label-text: rgba(97, 41, 153, 0.6);
   --black-base: rgba(0, 0, 0, 1);
@@ -14,6 +15,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg);
 }
 
 code {
