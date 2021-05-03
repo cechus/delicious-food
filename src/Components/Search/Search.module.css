@@ -24,6 +24,9 @@
   height: 63px;
   outline: none;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .button:hover {
   background: var(--secondary);

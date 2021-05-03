@@ -1,6 +1,6 @@
-import clsx from "clsx";
-import { Link } from "react-router-dom";
-import styles from "./Header.module.css";
+import clsx from "clsx"
+import { Link } from "react-router-dom"
+import styles from "./Header.module.css"
 
 export default function Header() {
   return (
@@ -17,5 +17,5 @@ export default function Header() {
         </ul>
       </nav>
     </div>
-  );
+  )
 }

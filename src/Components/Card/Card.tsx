@@ -1,7 +1,7 @@
-import React from "react";
-import Icon from "../Icon/Icon";
-import styles from "./Card.module.css";
-import clsx from "clsx";
+import React from "react"
+import Icon from "../Icon/Icon"
+import styles from "./Card.module.css"
+import clsx from "clsx"
 
 export default function Card() {
   return (
@@ -20,5 +20,5 @@ export default function Card() {
         </div>
       </div>
     </div>
-  );
+  )
 }
