@@ -12,4 +12,11 @@ rank product
 - BACKEND
 - popular (cantidad de ventas)
 
+STEPS TO PUSH CODE WITH HUSKY
 
+1. git add .
+2. git commit -m ""
+   ERROR...
+   2.1. npm run prettier:fix
+   NO ERROR
+3. git push .....

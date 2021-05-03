@@ -1,7 +1,8 @@
 import React from "react"
 import Search from "Components/Search/Search"
 import styles from "./Home.module.css"
-import Card from "Components/Card/Card"
+import Cards from "Components/Cards/Cards"
+import Categories from "Components/Categories/Categories"
 export default function Home() {
   return (
     <div className="container">
@@ -19,7 +20,8 @@ export default function Home() {
         <div>card 1 ca2</div>
       </div>
       <div>
-        <Card />
+        <Categories />
+        <Cards />
       </div>
     </div>
   )
