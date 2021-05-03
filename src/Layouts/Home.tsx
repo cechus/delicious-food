@@ -1,7 +1,7 @@
 import React from "react"
-import Card from "../Components/Card/Card"
-import Search from "../Components/Search/Search"
+import Search from "Components/Search/Search"
 import styles from "./Home.module.css"
+import Card from "Components/Card/Card"
 export default function Home() {
   return (
     <div className="container">
